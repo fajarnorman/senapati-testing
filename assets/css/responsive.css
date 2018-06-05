@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px){
+	header .logo img{ max-width: 200px; }
+	header .menu ul li a{
+		padding: 22px 0;
+	    font-size: 16px;
+	}
+	.hero-tittle .form-filter{
+		max-width: 788px;
+		width: 100%;
+	}
+	.img-aboutus{ max-width: 550px; }
+	.subscribe-text div{ max-width: 80%; }
+	.btn{
+		height: 50px;
+    	font-size: 16px;
+    	padding: 11px 0;
+	}
+	a.btn{ padding: 15px 0; }
+	.subscribe-form .form-control{ max-width: 45%; }
+	header .menu ul li a.btn{ line-height: 50px; }
+	header.home:before{ display: none; }
+	.list-content-promo{
+		width: auto;
+		margin-right: -3em;
+	}
+	.blog-content .blog-item{ padding-bottom: 25px; }
+	.blog-content .blog-item .blog-detail{ max-width: 50%; }
+	.blog-content .blog-sidebar .form-search input{ max-width: 85%; }
+	.slider-paket .slick-arrow.slick-prev,
+	.slider-paket .img-slider .full-screen-img{ left: 10%; }
+	.slider-paket .slick-arrow.slick-next{ right: 10%; }
+	.content-detail-content .nav-tabs>li{ width: 27%; }
+	.content-detail-content .nav-tabs>li>a, .content-detail-content .nav-tabs>li>a:hover, .nav-tabs>li>a, .nav-tabs>li>a:hover{ font-size: 14px; }
+	.form-booking-list .need-info-content{ padding: 10px; }
+	.form-booking-list .need-more-info{ max-width: 50%; }
+	.form-booking-list .need-more-info h4{ font-size: 14px; }
+	.form-booking-list .need-more-info span{ font-size: 12px; }
+	.content-detail-content .action-detail li{ padding: 0 5px; }
+	.content-detail-content .featured .feture-desc{ max-width: 61%; }
+	.modal.in{
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.custom-modal-v2 .modal-dialog{ width: 100%; }
+
+}
+
+@media screen and (max-width: 800px){
+	
+}
+
+@media screen and (max-width: 768px){
+	
+}
+
+@media screen and (max-width: 570px){
+	
+}
+
+@media screen and (max-width: 475px){
+	
+}
+
+@media screen and (max-width: 375px){
+	
+}
+
+@media screen and (max-width: 320px){
+	
+}

@@ -94,21 +94,21 @@ header.no-bg{ background: transparent; }
 	font-weight: 300;
 }
 .sidebar-menu .sidebar-item .icon-sidemenu{
-	width: 24px;
-	height: 24px;
+	width: 22px;
+	height: 22px;
 	display: inline-block;
 	vertical-align: middle;
 	background-size: cover;
 	margin-right: 5px;
 }
-.sidebar-menu .sidebar-item .icon-sidemenu.home{ background-image: url('../images/icons/icon-sidebar-home.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.package{ background-image: url('../images/icons/icon-sidebar-package.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.promo{ background-image: url('../images/icons/icon-sidebar-promo.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.gallery{ background-image: url('../images/icons/icon-sidebar-gallery.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.payment{ background-image: url('../images/icons/icon-sidebar-payment.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.article{ background-image: url('../images/icons/icon-sidebar-article.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.chat{ background-image: url('../images/icons/icon-sidebar-chat.svg') ; }
-.sidebar-menu .sidebar-item .icon-sidemenu.phone{ background-image: url('../images/icons/icon-sidebar-phone.svg') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.home{ background-image: url('../images/icons/icon-sidebar-home.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.package{ background-image: url('../images/icons/icon-sidebar-package.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.promo{ background-image: url('../images/icons/icon-sidebar-promo.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.gallery{ background-image: url('../images/icons/icon-sidebar-gallery.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.payment{ background-image: url('../images/icons/icon-sidebar-payment.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.article{ background-image: url('../images/icons/icon-sidebar-article.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.chat{ background-image: url('../images/icons/icon-sidebar-chat.png') ; }
+.sidebar-menu .sidebar-item .icon-sidemenu.phone{ background-image: url('../images/icons/icon-sidebar-phone.png') ; }
 header .header-content{
 	text-align: center;
 	position: relative;
@@ -1448,18 +1448,24 @@ header .sign-tool-tips li a{
 	border-bottom: 1px solid rgba(29, 27, 12, 0.2);
 }
 .profile-menu .icon-profile{
-	width: 24px;
-    height: 24px;
+	width: 15px;
+    height: 15px;
     display: inline-block;
     vertical-align: middle;
     background-size: cover;
     margin-right: 5px;
 }
-.profile-menu .icon-profile.pemesanan{ background-image: url(../images/icons/profile-1.svg); }
-.profile-menu .icon-profile.perjalanan{ background-image: url(../images/icons/profile-2.svg); }
-.profile-menu .icon-profile.wishlist{ background-image: url(../images/icons/profile-3.svg); }
-.profile-menu .icon-profile.my-account{ background-image: url(../images/icons/profile-4.svg); }
-.profile-menu .icon-profile.logout{ background-image: url(../images/icons/profile-5.svg); }
+.profile-menu .icon-profile.pemesanan{ background-image: url(../images/icons/profile-1.png); }
+.profile-menu .icon-profile.perjalanan{ 
+	width: 16px;
+	background-image: url(../images/icons/profile-2.png); 
+}
+.profile-menu .icon-profile.wishlist{ background-image: url(../images/icons/profile-3.png); }
+.profile-menu .icon-profile.my-account{ 
+	height: 20px;
+	background-image: url(../images/icons/profile-4.png); 
+}
+.profile-menu .icon-profile.logout{ background-image: url(../images/icons/profile-5.png); }
 
 .profile-page .profile-person-content{
 	display: inline-block;

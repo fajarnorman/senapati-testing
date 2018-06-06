@@ -1,0 +1,143 @@
+@media screen and (max-width: 1024px){
+	header .logo img{ max-width: 200px; }
+	header .menu ul li a{
+		padding: 22px 0;
+	    font-size: 16px;
+	}
+	.hero-tittle .form-filter{
+		max-width: 788px;
+		width: 100%;
+	}
+	.img-aboutus{ max-width: 550px; }
+	.subscribe-text div{ max-width: 80%; }
+	.btn{
+		height: 50px;
+    	font-size: 16px;
+    	padding: 11px 0;
+	}
+	a.btn{ padding: 15px 0; }
+	.subscribe-form .form-control{ max-width: 45%; }
+	header .menu ul li a.btn{ line-height: 50px; }
+	header.home:before{ display: none; }
+	.list-content-promo{
+		width: auto;
+		margin-right: -3em;
+	}
+	.blog-content .blog-item{ padding-bottom: 25px; }
+	.blog-content .blog-item .blog-detail{ max-width: 50%; }
+	.blog-content .blog-sidebar .form-search input{ max-width: 85%; }
+	.slider-paket .slick-arrow.slick-prev,
+	.slider-paket .img-slider .full-screen-img{ left: 10%; }
+	.slider-paket .slick-arrow.slick-next{ right: 10%; }
+	.slider-paket .slick-arrow.slick-prev,
+	.slider-paket .slick-arrow.slick-next{ overflow: hidden; }
+	.content-detail-content .nav-tabs>li{ width: 27%; }
+	.content-detail-content .nav-tabs>li>a, .content-detail-content .nav-tabs>li>a:hover, .nav-tabs>li>a, .nav-tabs>li>a:hover{ font-size: 14px; }
+	.form-booking-list .need-info-content{ padding: 10px; }
+	.form-booking-list .need-more-info{ max-width: 50%; }
+	.form-booking-list .need-more-info h4{ font-size: 14px; }
+	.form-booking-list .need-more-info span{ font-size: 12px; }
+	.content-detail-content .action-detail li{ padding: 0 5px; }
+	.content-detail-content .featured .feture-desc{ max-width: 61%; }
+	.modal.in{
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.custom-modal-v2 .modal-dialog{ width: 100%; }
+	.pembayaran-page .booking-status-content{
+		width: 100%;
+	    position: static;
+	}
+	.booking-status-content .form-booking-status input{
+		height: 50px;
+		line-height: 50px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.booking-status-content .form-booking-status button{ width: 100%; }
+	.detail-booking-status-page .get-ticket h5{ font-size: 25px; }
+	.profile-page .menu-profile ul li a{
+		padding: 30px 25px;
+		font-size: 14px;
+	}
+	.add-form-perjalanan .form-perjalanan{
+		width: 100%;
+		max-width: 690px;
+	}
+	.booking-status-content.static .form-booking-status input{ width: 100%; }
+	.empty-box-profile a{ height: 50px; }
+	.wishlist-button-detail-v2{ right: 30px; }
+	.destination-favorite .item-destination-fav.width4{ width: 120px; }
+	.destination-favorite .item-destination-fav .img-destination .overlay span{ font-size: 20px; }
+}
+
+@media screen and (max-width: 800px){
+	header .logo img{ max-width: 150px; }
+	header .menu ul li{ margin-left: 10px; }
+	header .menu ul li a{
+		padding: 15px 0;
+		font-size: 14px;
+	}
+	.list-content-promo{ margin-right: -40px; }
+	.hero-tittle .form-filter .filter-form{ width: 65%; }
+	footer .footer-payment-logo .container{ width: 100%; }
+	.home-booking-tips .list-bookingtips .item-tips img{ max-width: 90px; }
+	.home-booking-tips .list-bookingtips .item-tips h4{ font-size: 20px; }
+	.about-us-home{ max-width: 100%; }
+	.img-aboutus{
+		position: static;
+		transform: none;
+		max-width: 100%;
+		margin-top: 50px;
+	}
+	.subscribe-text{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.subscribe-form .form-control{
+		width: 100%;
+		max-width: 65%;
+	}
+	.blog-content .blog-item .blog-detail{ max-width: 65%; }
+	.blog-content .pagination{ 
+		float: none;
+	    margin-bottom: 4em; 
+	}
+	.paket-page .filter-paket .form-group{ margin-bottom: 15px; }
+	.paket-content .head-paket .title,
+	.paket-content .head-paket .result-filter{ float: none; }
+	.paket-content .head-paket .result-filter{ margin-top: 0; }
+	.add-form-perjalanan{ padding: 30px 0; }
+	.add-form-perjalanan .form-perjalanan .list-field{ margin-bottom: 0; }
+	.checkout-form .form-perjalanan .form-group,
+	.add-form-perjalanan .form-perjalanan .form-group{ margin-bottom: 20px; }
+	.detail-booking-status-page .get-ticket h5{ font-size: 22px; }
+	.detail-booking .nav-tabs>li{ width: 40%; }
+	.detail-booking .tab-content .box-info{ margin-bottom: 30px; }
+	.support-page .hub-list{ text-align: center; }
+	.support-page .hub-list .col-md-4{
+		width: 50%;
+		display: inline-block;
+		margin-left: -2px;
+	}
+	.support-page .hub-list .hub-content{ margin-bottom: 2em; }
+	.profile-page .menu-profile ul li a{ padding: 30px 15px; }
+	.form-teman-perjalanan{ margin-left: 0; }
+	.dashboard-profile .box-profile .box-content .add-form-perjalanan{ padding: 30px; }
+	.add-form-perjalanan .images{ display: block; }
+	.add-form-perjalanan .images .img{
+		display: block;
+		margin: 0 auto;
+	}
+	.wishlist-button-detail-v2{ top: 20.555em; }
+	.destination-favorite .item-destination-fav,
+	.destination-favorite .item-destination-fav.width4{ 
+		width: 50%; 
+		height: 270px;
+	}
+	.destination-favorite .item-destination-fav .img-destination .overlay span{ font-size: 24px; }
+}
+
+@media screen and (max-width: 768px){
+	.list-content-promo{ margin-right: -24px; }	
+}
